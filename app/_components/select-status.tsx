@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from "react"
-import { updateStatus } from "../_firebase/actions"
+import { updateStatus } from "../_lib/_firebase/actions"
 
 type SelectStatusProps = {
   docId: string,

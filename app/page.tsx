@@ -1,7 +1,7 @@
-import Ticket from "./_ui/ticket";
-import { db } from "./_firebase/config";
+import Ticket from "./_components/ticket";
+import { db } from "./_lib/_firebase/config";
 import { collection, getDocs } from "firebase/firestore";
-import CenteredHeader from "./_ui/centered-header";
+import CenteredHeader from "./_components/centered-header";
 import Link from "next/link";
 import Image from "next/image";
 import add from "@/public/add.svg";

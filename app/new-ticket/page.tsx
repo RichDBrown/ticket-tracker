@@ -1,6 +1,6 @@
 import { redirect } from "next/navigation";
-import { createTicket } from "../_firebase/actions";
-import DialogHeader from "../_ui/dialog-header";
+import { createTicket } from "../_lib/_firebase/actions";
+import DialogHeader from "./_components/dialog-header";
 
 async function submitForm(formData: FormData) {
   'use server'
