@@ -19,7 +19,7 @@ export default function SelectStatus({ docId, status }: SelectStatusProps) {
         updateStatus(docId, e.target.value)
       }} className="text-on-surface border border-outline rounded-xs p-0.25 ml-0.5 cursor-pointer focus:outline-primary">
         <option>Open</option>
-        <option>In Progress</option>
+        <option>In progress</option>
         <option>Resolved</option>
       </select>
     </label>
