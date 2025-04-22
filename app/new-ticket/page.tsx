@@ -13,7 +13,7 @@ export default function NewTicketPage() {
     <main>
       <form action={submitForm}>
         <DialogHeader />
-        <section className="flex flex-col p-cp">
+        <section className="flex flex-col p-cp md:px-md">
           <label className="w-full text-bs text-on-surface-variant">
             Issue title*
             <input name="title" required className="block w-full text-bl text-on-surface my-0.25 border border-outline rounded-xs p-1 focus:outline-primary" />

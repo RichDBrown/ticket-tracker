@@ -16,7 +16,7 @@ export default function CenteredHeader() {
 
   return (
     <header
-      className={`flex items-center justify-center sticky p-cp top-0 z-1 ${scrolled ? "bg-surface-container" : "bg-surface"}`}>
+      className={`flex items-center justify-center sticky p-cp md:px-md top-0 z-1 ${scrolled ? "bg-surface-container" : "bg-surface"}`}>
       <h1 className="text-tl">Tickets</h1>
     </header>
   );

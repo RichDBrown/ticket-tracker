@@ -28,7 +28,7 @@ export default function Tickets({ allTickets, openTickets, inProgressTickets, re
   }
 
   return (
-    <section className="flex flex-col items-center">
+    <section className="flex flex-col">
       <div className="flex gap-x-0.5 mb-1">
         <FilterChip name="Open" isSelected={selectedFilter} setIsSelected={setSelectedFilter} />
         <FilterChip name="In progress" isSelected={selectedFilter} setIsSelected={setSelectedFilter} />

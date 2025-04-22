@@ -18,7 +18,7 @@ export default function DialogHeader() {
   }, [])
 
   return (
-    <header className={`flex items-center justify-between sticky top-0 p-cp z-1 ${scrolled ? "bg-surface-container" : "bg-surface"}`}>
+    <header className={`flex items-center justify-between sticky top-0 p-cp md:px-md z-1 ${scrolled ? "bg-surface-container" : "bg-surface"}`}>
       <div className="flex items-center">
         <Link href="/" replace className="cursor-pointer hover:bg-[#DFDFE4] active:bg-[#D2CFD6] p-0.5 rounded-full transition-colors">
           <Image src={close} alt="Close" className="h-1 w-1" />
