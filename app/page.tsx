@@ -1,7 +1,4 @@
 import CenteredHeader from "./_components/centered-header";
-import Link from "next/link";
-import Image from "next/image";
-import add from "@/public/add.svg";
 import Tickets from "./_components/tickets";
 import { getAllTickets, getInProgressTickets, getOpenTickets, getResolvedTickets } from "./_lib/_firebase/actions";
 import { Suspense } from "react";
