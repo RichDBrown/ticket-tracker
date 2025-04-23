@@ -18,7 +18,7 @@ export default function Ticket({docId, title, description, category, urgency, st
       <p className="text-bm text-on-surface-variant">Category: <span className="text-ts font-med text-on-surface">{category}</span></p>
       <p className="text-bm text-on-surface-variant">Urgency: <span className="text-ts font-med text-on-surface">{urgency}</span></p>
       <SelectStatus docId={docId} status={status}/>
-      <p className="text-bs text-outline">{`Created: ${date}`}</p>
+      <p className="text-bs text-on-surface-variant">{`Created: ${date}`}</p>
     </div>
   )
 }
