@@ -4,8 +4,10 @@ import { getAllTickets, getInProgressTickets, getOpenTickets, getResolvedTickets
 import { Suspense } from "react";
 import NavigationRail from "./_components/navigtion-rail";
 import ExpandedFAB from "./_components/expanded-fab";
+import { connection } from "next/server";
 
 export default async function TicketsPage() {
+  await connection()
   const allTickets = getAllTickets()
   const openTickets = getOpenTickets()
   const inProgressTickets = getInProgressTickets()
